@@ -11,8 +11,8 @@ index.html:
 
 #
 
-Display **_Hello World_** on a page using HTML, JavaScript and React
-HTML:
+Display **_Hello World_** on a page using HTML, JavaScript and React.
+HTML -
 
 ```html
 <body>
@@ -37,3 +37,14 @@ JavaScript:
   </script>
 </body>
 ```
+
+React:
+Two ways to get the react & react-dom into the project
+First way: Import the CDN links : [text](https://legacy.reactjs.org/docs/cdn-links.html)
+
+```js
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+```
+
+Second way: install react and react-dom from npm
