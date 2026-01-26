@@ -1,0 +1,25 @@
+{
+  "name": "react-internals",
+  "version": "1.0.0",
+  "description": "Learn React Internals",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdarshaCoding/react-internals.git"
+  },
+  "keywords": [
+    "react",
+    "internals"
+  ],
+  "author": "Adarsha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdarshaCoding/react-internals/issues"
+  },
+  "homepage": "https://github.com/AdarshaCoding/react-internals#readme",
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  }
+}
