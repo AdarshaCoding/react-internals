@@ -78,12 +78,19 @@ This project is dedicated to understanding React's internal architecture, from b
 - ✅ Bundle code into optimized `.js`, `.css`, `.html` files
 - ✅ Provide development server with live reload
 - ✅ Enable Hot Module Replacement (HMR) for instant updates
+- ✅ File Watching Algorithm- written in C++
 - ✅ Separate dev/production builds
+- ✅ Caching - Faster builds
+- ✅ Consistent Hashing
+- ✅ Differential Bundling - to support older browser
 - ✅ Code splitting and chunking for better performance
 - ✅ Minification and compression
+- ✅ Tree Shaking - remove un-used code
 - ✅ Image optimization
 - ✅ Source map generation for debugging
-- ✅ Remove dead code and comments
+- ✅ Diagnostic
+- ✅ Error Handling and Displaying to trace the error properly
+- ✅ HTTPS support
 
 **Our Choice:** Parcel (zero-configuration, beginner-friendly, fast)
 
