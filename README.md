@@ -82,7 +82,7 @@ This project is dedicated to understanding React's internal architecture, from b
 - ✅ Separate dev/production builds
 - ✅ Caching - Faster builds
 - ✅ Consistent Hashing
-- ✅ Differential Bundling - to support older browser
+- ✅ Differential Bundling - to support older browser (browserslist)
 - ✅ Code splitting and chunking for better performance
 - ✅ Minification and compression
 - ✅ Tree Shaking - remove un-used code
