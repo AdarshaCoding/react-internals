@@ -140,14 +140,22 @@ npm run build
 ## Project Structure
 
 ```
+Start with the below folder structure and do not spend more than five minutes to decide the folder structure.
 react-internals/
-├── index.html          # Main HTML file
-├── App.js              # Root React component
-├── index.css           # Global styles
-├── package.json        # Dependencies & scripts
-├── package-lock.json   # Locked dependency versions
-├── .gitignore          # Git ignore rules
-└── README.md           # This file
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── hooks/
+│   ├── pages/
+│   ├── services/
+│   ├── styles/
+│   ├── utils/
+│   ├── App.js    -> App layout and the router handler
+│   ├── index.js  -> create the root and render the main App
+│   └── routes.js -> define all route configurations
+├── index.html -> start/entry point
+├── package.json
+└── README.md
 ```
 
 ---
