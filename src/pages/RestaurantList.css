@@ -1,0 +1,61 @@
+.restaurant-list-wrapper {
+  display: flex;
+  justify-content: center; /* centers the container */
+  padding: 1rem;
+}
+
+.content-container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* Search stays LEFT */
+.search-container {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  justify-content: flex-start; /* 🔥 left aligned */
+}
+
+/* Grid stays centered by container */
+.restaurant-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+.search-input {
+  width: min(280px, 70%);
+  padding: 5px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.search-btn {
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+@media (min-width: 640px) {
+  .restaurant-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+}
+
+.filter-container {
+  margin: 1rem 0px;
+}
+.filter-btn {
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+@media (min-width: 1024px) {
+  .restaurant-list {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.25rem;
+  }
+}

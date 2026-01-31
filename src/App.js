@@ -1,11 +1,13 @@
 import { Footer, Header } from "./components";
 import "./App.css";
+import RestaurantList from "./pages/RestaurantList";
+
 const App = () => {
   return (
     <div className="app">
       <Header />
       <main>
-        <h3>Main Body</h3>
+        <RestaurantList />
       </main>
       <Footer />
     </div>

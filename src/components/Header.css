@@ -17,13 +17,13 @@
 
 .header nav a {
   text-decoration: none;
-  color: #374151;
+  color: #1f2937;
   font-weight: 500;
   transition: color 0.2s ease;
 }
 
 .header nav a:hover {
-  color: #2563eb;
+  color: rgb(251, 167, 12);
 }
 
 .title {
