@@ -1,0 +1,36 @@
+.top-section {
+  display: flex;
+  justify-content: left;
+  margin-left: 70px;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+
+.shimmer-input {
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+.shimmer-search-btn {
+  padding: 10px 40px;
+  margin-left: 10px;
+}
+
+.shimmer-top-rated-btn {
+  padding: 10px;
+  width: 200px;
+}
+
+.shimmer-wrapper-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.shimmer-container {
+  width: 250px;
+  height: 250px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}

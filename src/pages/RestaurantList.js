@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { RestaurantCard } from "../components";
+import { RestaurantCard, Shimmer } from "../components";
 import { useRestaurants } from "../hooks";
 import "./RestaurantList.css";
 
@@ -11,7 +11,7 @@ const RestaurantList = () => {
     setFilteredRestaurants(restaurants);
   }, [restaurants]);
 
-  if (loading) return <h3>Loading....</h3>;
+  if (loading) return <Shimmer />;
   if (error) return <h3>{error}</h3>;
 
   const handleFilterRestaurants = () => {
